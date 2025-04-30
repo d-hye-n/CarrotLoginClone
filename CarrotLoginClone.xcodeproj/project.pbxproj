@@ -1,0 +1,568 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		DD392E1C2DC23D9D0023EBA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD392DFD2DC23D9B0023EBA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD392E042DC23D9B0023EBA0;
+			remoteInfo = CarrotLoginClone;
+		};
+		DD392E262DC23D9E0023EBA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD392DFD2DC23D9B0023EBA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD392E042DC23D9B0023EBA0;
+			remoteInfo = CarrotLoginClone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD392E052DC23D9C0023EBA0 /* CarrotLoginClone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarrotLoginClone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD392E1B2DC23D9D0023EBA0 /* CarrotLoginCloneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotLoginCloneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD392E252DC23D9E0023EBA0 /* CarrotLoginCloneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarrotLoginCloneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		DD392E2D2DC23D9E0023EBA0 /* Exceptions for "CarrotLoginClone" folder in "CarrotLoginClone" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = DD392E042DC23D9B0023EBA0 /* CarrotLoginClone */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DD392E072DC23D9C0023EBA0 /* CarrotLoginClone */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				DD392E2D2DC23D9E0023EBA0 /* Exceptions for "CarrotLoginClone" folder in "CarrotLoginClone" target */,
+			);
+			path = CarrotLoginClone;
+			sourceTree = "<group>";
+		};
+		DD392E1E2DC23D9D0023EBA0 /* CarrotLoginCloneTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CarrotLoginCloneTests;
+			sourceTree = "<group>";
+		};
+		DD392E282DC23D9E0023EBA0 /* CarrotLoginCloneUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = CarrotLoginCloneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD392E022DC23D9B0023EBA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD392E182DC23D9D0023EBA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD392E222DC23D9E0023EBA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD392DFC2DC23D9B0023EBA0 = {
+			isa = PBXGroup;
+			children = (
+				DD392E072DC23D9C0023EBA0 /* CarrotLoginClone */,
+				DD392E1E2DC23D9D0023EBA0 /* CarrotLoginCloneTests */,
+				DD392E282DC23D9E0023EBA0 /* CarrotLoginCloneUITests */,
+				DD392E062DC23D9C0023EBA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD392E062DC23D9C0023EBA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD392E052DC23D9C0023EBA0 /* CarrotLoginClone.app */,
+				DD392E1B2DC23D9D0023EBA0 /* CarrotLoginCloneTests.xctest */,
+				DD392E252DC23D9E0023EBA0 /* CarrotLoginCloneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD392E042DC23D9B0023EBA0 /* CarrotLoginClone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD392E2E2DC23D9E0023EBA0 /* Build configuration list for PBXNativeTarget "CarrotLoginClone" */;
+			buildPhases = (
+				DD392E012DC23D9B0023EBA0 /* Sources */,
+				DD392E022DC23D9B0023EBA0 /* Frameworks */,
+				DD392E032DC23D9B0023EBA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DD392E072DC23D9C0023EBA0 /* CarrotLoginClone */,
+			);
+			name = CarrotLoginClone;
+			packageProductDependencies = (
+			);
+			productName = CarrotLoginClone;
+			productReference = DD392E052DC23D9C0023EBA0 /* CarrotLoginClone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD392E1A2DC23D9D0023EBA0 /* CarrotLoginCloneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD392E332DC23D9E0023EBA0 /* Build configuration list for PBXNativeTarget "CarrotLoginCloneTests" */;
+			buildPhases = (
+				DD392E172DC23D9D0023EBA0 /* Sources */,
+				DD392E182DC23D9D0023EBA0 /* Frameworks */,
+				DD392E192DC23D9D0023EBA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD392E1D2DC23D9D0023EBA0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD392E1E2DC23D9D0023EBA0 /* CarrotLoginCloneTests */,
+			);
+			name = CarrotLoginCloneTests;
+			packageProductDependencies = (
+			);
+			productName = CarrotLoginCloneTests;
+			productReference = DD392E1B2DC23D9D0023EBA0 /* CarrotLoginCloneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD392E242DC23D9E0023EBA0 /* CarrotLoginCloneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD392E362DC23D9E0023EBA0 /* Build configuration list for PBXNativeTarget "CarrotLoginCloneUITests" */;
+			buildPhases = (
+				DD392E212DC23D9E0023EBA0 /* Sources */,
+				DD392E222DC23D9E0023EBA0 /* Frameworks */,
+				DD392E232DC23D9E0023EBA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD392E272DC23D9E0023EBA0 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DD392E282DC23D9E0023EBA0 /* CarrotLoginCloneUITests */,
+			);
+			name = CarrotLoginCloneUITests;
+			packageProductDependencies = (
+			);
+			productName = CarrotLoginCloneUITests;
+			productReference = DD392E252DC23D9E0023EBA0 /* CarrotLoginCloneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD392DFD2DC23D9B0023EBA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					DD392E042DC23D9B0023EBA0 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					DD392E1A2DC23D9D0023EBA0 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DD392E042DC23D9B0023EBA0;
+					};
+					DD392E242DC23D9E0023EBA0 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DD392E042DC23D9B0023EBA0;
+					};
+				};
+			};
+			buildConfigurationList = DD392E002DC23D9B0023EBA0 /* Build configuration list for PBXProject "CarrotLoginClone" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD392DFC2DC23D9B0023EBA0;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DD392E062DC23D9C0023EBA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD392E042DC23D9B0023EBA0 /* CarrotLoginClone */,
+				DD392E1A2DC23D9D0023EBA0 /* CarrotLoginCloneTests */,
+				DD392E242DC23D9E0023EBA0 /* CarrotLoginCloneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD392E032DC23D9B0023EBA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD392E192DC23D9D0023EBA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD392E232DC23D9E0023EBA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD392E012DC23D9B0023EBA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD392E172DC23D9D0023EBA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD392E212DC23D9E0023EBA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD392E1D2DC23D9D0023EBA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD392E042DC23D9B0023EBA0 /* CarrotLoginClone */;
+			targetProxy = DD392E1C2DC23D9D0023EBA0 /* PBXContainerItemProxy */;
+		};
+		DD392E272DC23D9E0023EBA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD392E042DC23D9B0023EBA0 /* CarrotLoginClone */;
+			targetProxy = DD392E262DC23D9E0023EBA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DD392E2F2DC23D9E0023EBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarrotLoginClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unknown.CarrotLoginClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DD392E302DC23D9E0023EBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CarrotLoginClone/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unknown.CarrotLoginClone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DD392E312DC23D9E0023EBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD392E322DC23D9E0023EBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD392E342DC23D9E0023EBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unknown.CarrotLoginCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrotLoginClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarrotLoginClone";
+			};
+			name = Debug;
+		};
+		DD392E352DC23D9E0023EBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unknown.CarrotLoginCloneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CarrotLoginClone.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CarrotLoginClone";
+			};
+			name = Release;
+		};
+		DD392E372DC23D9E0023EBA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unknown.CarrotLoginCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarrotLoginClone;
+			};
+			name = Debug;
+		};
+		DD392E382DC23D9E0023EBA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = unknown.CarrotLoginCloneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CarrotLoginClone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD392E002DC23D9B0023EBA0 /* Build configuration list for PBXProject "CarrotLoginClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD392E312DC23D9E0023EBA0 /* Debug */,
+				DD392E322DC23D9E0023EBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD392E2E2DC23D9E0023EBA0 /* Build configuration list for PBXNativeTarget "CarrotLoginClone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD392E2F2DC23D9E0023EBA0 /* Debug */,
+				DD392E302DC23D9E0023EBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD392E332DC23D9E0023EBA0 /* Build configuration list for PBXNativeTarget "CarrotLoginCloneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD392E342DC23D9E0023EBA0 /* Debug */,
+				DD392E352DC23D9E0023EBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD392E362DC23D9E0023EBA0 /* Build configuration list for PBXNativeTarget "CarrotLoginCloneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD392E372DC23D9E0023EBA0 /* Debug */,
+				DD392E382DC23D9E0023EBA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DD392DFD2DC23D9B0023EBA0 /* Project object */;
+}
