@@ -6,14 +6,38 @@
 //
 
 import UIKit
+import SnapKit
 
-class LoginViewController: UIViewController {
-
+final class LoginViewController: UIViewController {
+    
+    private let button: UIButton = {
+        let button = UIButton(type: .system)
+        button.setTitle("로그인하기", for: .normal)
+        return button
+    }()
+    
     override func viewDidLoad() {
+        
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        view.backgroundColor = .white
+        
+        view.addSubview(button)
+        
+        button.addTarget(self, action: #selector(moveToWelcome), for: .touchUpInside)
+        
+        button.snp.makeConstraints {
+            $0.centerX.equalTo(view.snp.centerX)
+            $0.centerY.equalTo(view.snp.centerY)
+            
+        }
+        
     }
-
-
+  
+    
+    @objc func moveToWelcome() {
+        let viewController = WelcomeViewController()
+        self.navigationController?.pushViewController(viewController, animated: true)
+    }
 }
 
