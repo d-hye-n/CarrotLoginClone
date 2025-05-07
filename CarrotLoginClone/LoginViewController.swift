@@ -24,8 +24,32 @@ final class LoginViewController: UIViewController {
     
     private let button: UIButton = {
         let button = UIButton(type: .system)
+        button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
         button.setTitle("로그인하기", for: .normal)
+        button.backgroundColor = .primaryOrange
+        button.setTitleColor(.white, for: .normal)
+        button.layer.cornerRadius = 6
         return button
+    }()
+    
+    private let TextField1: UITextField = {
+        let textField = UITextField()
+        textField.placeholder = "아이디"
+        textField.backgroundColor = .gray200
+        textField.layer.cornerRadius = 3
+        textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
+        textField.setPadding(left: 23, right: 23)
+        return textField
+    }()
+    
+    private let TextField2: UITextField = {
+        let textField = UITextField()
+        textField.placeholder = "비밀번호"
+        textField.backgroundColor = .gray200
+        textField.layer.cornerRadius = 3
+        textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
+        textField.setPadding(left: 23, right: 23)
+        return textField
     }()
     
     override func viewDidLoad() {
@@ -40,15 +64,31 @@ final class LoginViewController: UIViewController {
         
         button.snp.makeConstraints {
             $0.centerX.equalTo(view.snp.centerX)
-            $0.centerY.equalTo(view.snp.centerY)
-            
+            $0.top.equalTo(view.safeAreaLayoutGuide).offset(422)
+            $0.width.equalTo(335)
+            $0.height.equalTo(57)
         }
         view.addSubview(label)
         label.snp.makeConstraints {
             $0.centerX.equalTo(view.snp.centerX)
             $0.top.equalTo(view.safeAreaLayoutGuide).offset(170)
+        }
+        view.addSubview(TextField1)
+        TextField1.snp.makeConstraints {
+            $0.centerX.equalTo(view.snp.centerX)
+            $0.top.equalTo(view.safeAreaLayoutGuide).offset(276)
+            $0.width.equalTo(335)
+            $0.height.equalTo(52)
             
         }
+        view.addSubview(TextField2)
+        TextField2.snp.makeConstraints {
+            $0.centerX.equalTo(view.snp.centerX)
+            $0.top.equalTo(view.safeAreaLayoutGuide).offset(335)
+            $0.width.equalTo(335)
+            $0.height.equalTo(52)
+        }
+        
     }
   
     @objc func moveToWelcome() {
@@ -57,3 +97,17 @@ final class LoginViewController: UIViewController {
     }
 }
 
+extension UITextField {
+    func setPadding(left: CGFloat = 0, right: CGFloat = 0) {
+        if left > 0 {
+            let padding = UIView(frame: CGRect(x: 0, y: 0, width: left, height: 0))
+            self.leftView = padding
+            self.leftViewMode = .always
+        }
+        if right > 0 {
+            let padding = UIView(frame: CGRect(x: 0, y: 0, width: right, height: 0))
+            self.rightView = padding
+            self.rightViewMode = .always
+        }
+    }
+}
