@@ -19,9 +19,32 @@ final class WelcomeViewController: UIViewController {
         return image
     }()
     
-    private let button: UIButton = {
+    private let label: UILabel = {
+        let label = UILabel()
+        label.numberOfLines = 0
+        label.textAlignment = .center
+        label.font = UIFont(name : "Pretendard-ExtraBold", size: 25)
+        label.text = "???님\n 반가워요!"
+        return label
+    }()
+    
+    private let button1: UIButton = {
         let button = UIButton(type: .system)
+        button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
         button.setTitle("메인으로", for: .normal)
+        button.backgroundColor = .primaryOrange
+        button.setTitleColor(.white, for: .normal)
+        button.layer.cornerRadius = 6
+        return button
+    }()
+    
+    private let button2: UIButton = {
+        let button = UIButton(type: .system)
+        button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
+        button.setTitle("다시 로그인", for: .normal)
+        button.backgroundColor = .gray200
+        button.setTitleColor(.white, for: .normal)
+        button.layer.cornerRadius = 6
         return button
     }()
     
@@ -31,20 +54,36 @@ final class WelcomeViewController: UIViewController {
         
         view.backgroundColor = .white
         
-        view.addSubview(button)
+        view.addSubview(button1)
         view.addSubview(Image)
+        view.addSubview(label)
+        view.addSubview(button2)
         
-        button.addTarget(self, action: #selector(moveToLogin), for: .touchUpInside)
+        button1.addTarget(self, action: #selector(moveToLogin), for: .touchUpInside)
         
-        button.snp.makeConstraints {
+        button1.snp.makeConstraints {
             $0.centerX.equalTo(view.snp.centerX)
-            $0.centerY.equalTo(view.snp.centerY)
+            $0.top.equalTo(view.safeAreaLayoutGuide).offset(426)
+            $0.width.equalTo(335)
+            $0.height.equalTo(57)
+        }
+        
+        button2.snp.makeConstraints {
+            $0.centerX.equalTo(view.snp.centerX)
+            $0.top.equalTo(view.safeAreaLayoutGuide).offset(498)
+            $0.width.equalTo(335)
+            $0.height.equalTo(57)
         }
         
         Image.snp.makeConstraints {
             $0.size.equalTo(150)
             $0.centerX.equalTo(view.snp.centerX)
             $0.top.equalTo(view.safeAreaLayoutGuide).offset(88)
+        }
+        
+        label.snp.makeConstraints {
+            $0.centerX.equalTo(view.snp.centerX)
+            $0.top.top.equalTo(view.safeAreaLayoutGuide).offset(302)
         }
     }
     
