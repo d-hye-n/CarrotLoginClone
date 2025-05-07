@@ -17,6 +17,7 @@ final class LoginViewController: UIViewController {
         let label = UILabel()
         label.numberOfLines = 0
         label.textAlignment = .center
+        label.font = UIFont(name : "Pretendard-Bold", size: 18)
         label.text = "동네라서 가능한 모든 것\n 당근에서 가까운 이웃과 함께해요."
         return label
     }()
@@ -45,7 +46,7 @@ final class LoginViewController: UIViewController {
         view.addSubview(label)
         label.snp.makeConstraints {
             $0.centerX.equalTo(view.snp.centerX)
-            $0.bottom.equalTo(button.snp.top).offset(-20)
+            $0.top.equalTo(view.safeAreaLayoutGuide).offset(170)
             
         }
     }
