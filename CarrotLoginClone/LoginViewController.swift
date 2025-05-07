@@ -53,6 +53,7 @@ final class LoginViewController: UIViewController {
         
         super.viewDidLoad()
         
+        
         view.backgroundColor = .white
         
         view.addSubview(button)
@@ -92,6 +93,11 @@ final class LoginViewController: UIViewController {
         let viewController = WelcomeViewController()
         self.navigationController?.pushViewController(viewController, animated: true)
     }
+//        @objc func moveToWelcome() {
+//            let bYC = WelcomeViewController()
+//            bYC.modalPresentationStyle = .pageSheet
+//            self.present(bYC, animated: true, completion: nil)
+//        }
 }
 
 extension UITextField {
