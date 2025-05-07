@@ -4,9 +4,6 @@
 //
 //  Created by 김도현 on 4/30/25.
 //
-#Preview{
-    LoginViewController()
-}
 
 import UIKit
 import SnapKit

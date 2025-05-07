@@ -4,9 +4,6 @@
 //
 //  Created by 김도현 on 4/30/25.
 //
-#Preview{
-    WelcomeViewController()
-}
 
 import UIKit
 import SnapKit
