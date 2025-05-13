@@ -10,7 +10,7 @@ import SnapKit
 
 final class LoginViewController: UIViewController {
     
-    private let label: UILabel = {
+    private let loginLabel: UILabel = {
         let label = UILabel()
         label.numberOfLines = 0
         label.textAlignment = .center
@@ -19,7 +19,7 @@ final class LoginViewController: UIViewController {
         return label
     }()
     
-    private let button: UIButton = {
+    private let loginButton: UIButton = {
         let button = UIButton(type: .system)
         button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
         button.setTitle("로그인하기", for: .normal)
@@ -29,7 +29,7 @@ final class LoginViewController: UIViewController {
         return button
     }()
     
-    private let TextField1: UITextField = {
+    private let useridField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "아이디"
         textField.backgroundColor = .gray200
@@ -39,7 +39,7 @@ final class LoginViewController: UIViewController {
         return textField
     }()
     
-    private let TextField2: UITextField = {
+    private let userpwField: UITextField = {
         let textField = UITextField()
         textField.placeholder = "비밀번호"
         textField.backgroundColor = .gray200
@@ -56,31 +56,31 @@ final class LoginViewController: UIViewController {
         
         view.backgroundColor = .white
         
-        view.addSubview(button)
+        view.addSubview(loginButton)
         
-        button.addTarget(self, action: #selector(moveToWelcome), for: .touchUpInside)
+        loginButton.addTarget(self, action: #selector(moveToWelcome), for: .touchUpInside)
         
-        button.snp.makeConstraints {
+        loginButton.snp.makeConstraints {
             $0.centerX.equalTo(view.snp.centerX)
             $0.top.equalTo(view.safeAreaLayoutGuide).offset(422)
             $0.width.equalTo(335)
             $0.height.equalTo(57)
         }
-        view.addSubview(label)
-        label.snp.makeConstraints {
+        view.addSubview(loginLabel)
+        loginLabel.snp.makeConstraints {
             $0.centerX.equalTo(view.snp.centerX)
             $0.top.equalTo(view.safeAreaLayoutGuide).offset(170)
         }
-        view.addSubview(TextField1)
-        TextField1.snp.makeConstraints {
+        view.addSubview(useridField)
+        useridField.snp.makeConstraints {
             $0.centerX.equalTo(view.snp.centerX)
             $0.top.equalTo(view.safeAreaLayoutGuide).offset(276)
             $0.width.equalTo(335)
             $0.height.equalTo(52)
             
         }
-        view.addSubview(TextField2)
-        TextField2.snp.makeConstraints {
+        view.addSubview(userpwField)
+        userpwField.snp.makeConstraints {
             $0.centerX.equalTo(view.snp.centerX)
             $0.top.equalTo(view.safeAreaLayoutGuide).offset(335)
             $0.width.equalTo(335)
@@ -89,7 +89,7 @@ final class LoginViewController: UIViewController {
         
     }
   
-    @objc func moveToWelcome() {
+    @objc private func moveToWelcome() {
         let viewController = WelcomeViewController()
         self.navigationController?.pushViewController(viewController, animated: true)
     }
